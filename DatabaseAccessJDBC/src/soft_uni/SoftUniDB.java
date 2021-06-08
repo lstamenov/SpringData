@@ -1,11 +1,12 @@
+package soft_uni;
+
 import java.sql.*;
-import java.util.Objects;
 import java.util.Properties;
 
-public class Main {
+public class SoftUniDB {
     public static void main(String[] args) throws SQLException {
         Connection con = null;
-        
+
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Driver loaded successfully");
@@ -44,7 +45,7 @@ public class Main {
         System.out.printf("| %-15s |%n ", name);
         while (resultSet.next()){
             System.out.printf("| %-15s |%n",
-                     resultSet.getString("full_name"));
+                    resultSet.getString("full_name"));
         }
     }
 }
