@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DatabaseAccessJDBC/DatabaseAccessJDBC.iml" filepath="$PROJECT_DIR$/DatabaseAccessJDBC/DatabaseAccessJDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringData.iml" filepath="$PROJECT_DIR$/.idea/SpringData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDataIntroLab/SpringDataIntroLab.iml" filepath="$PROJECT_DIR$/SpringDataIntroLab/SpringDataIntroLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringIntroLab/SpringIntroLab.iml" filepath="$PROJECT_DIR$/SpringIntroLab/SpringIntroLab.iml" />
     </modules>
   </component>
 </project>
